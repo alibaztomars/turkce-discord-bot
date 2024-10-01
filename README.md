@@ -54,6 +54,10 @@ Bu proje, Discord sunucunuzda çeşitli komutlar ve etkileşimler sağlayan bir 
 
 Bot çalıştığında, Discord sunucunuzda çeşitli komutları kullanabilirsiniz. Yardım komutunu kullanarak mevcut komutları ve kategorileri görebilirsiniz.
 
+## Hata Ayıklama
+
+Bot çalışırken herhangi bir hata ile karşılaşırsanız, `error_logs.txt` dosyasını kontrol edebilirsiniz. Bu dosya, botun çalışması sırasında meydana gelen hataları kaydeder.
+
 ## Önemli bir not
 
 Bot tek sunucu için tasarlanmış ve yazılmıştır. Botunuzun başka sunuculara girmesini önlemek için Discord Developer Portal'dan botunuzun Public Bot ayarının kapalı olduğundan emin olun.
