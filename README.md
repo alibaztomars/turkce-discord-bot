@@ -25,7 +25,7 @@ Bu proje, Discord sunucunuzda çeşitli komutlar ve etkileşimler sağlayan bir 
 1. **Depoyu Klonlayın**
 
     ```bash
-    git clone https://github.com/kullaniciadi/discord-bot.git
+    git clone https://github.com/alibaztomars/turkce-discord-bot.git
     cd discord-bot
     ```
 
