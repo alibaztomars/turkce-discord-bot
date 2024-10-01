@@ -53,6 +53,123 @@ Bu proje, Discord sunucunuzda çeşitli komutlar ve etkileşimler sağlayan bir 
 
 Bot çalıştığında, Discord sunucunuzda çeşitli komutları kullanabilirsiniz. Yardım komutunu kullanarak mevcut komutları ve kategorileri görebilirsiniz.
 
+
+### Komutlar ve Örnekler
+
+#### Moderasyon Komutları
+
+- **Mesaj Temizleme**: Belirli sayıda mesajı siler.
+    ```bash
+    !temizle 10
+    ```
+
+- **Kullanıcı Banlama**: Belirtilen kullanıcıyı banlar.
+    ```bash
+    !banla @kullanici Sebep burası
+    ```
+
+- **Kullanıcı Atma**: Belirtilen kullanıcıyı sunucudan atar.
+    ```bash
+    !at @kullanici Kurallar_yanlış
+    ```
+
+- **Rol Ekleme**: Belirtilen kullanıcıya rol ekler.
+    ```bash
+    !rol_ekle @kullanici RolAdi
+    ```
+
+- **Rol Silme**: Belirtilen kullanıcıdan rolü kaldırır.
+    ```bash
+    !rol_sil @kullanici RolAdi
+    ```
+
+#### Seviye Komutları
+
+- **Seviye Gösterme**: Kullanıcının seviyesini gösterir.
+    ```bash
+    !seviye @kullanici
+    ```
+    veya
+    ```bash
+    !seviye
+    ```
+
+#### Ekonomi Komutları
+
+- **Bakiye Gösterme**: Kullanıcının bakiyesini gösterir.
+    ```bash
+    !bakiye @kullanici
+    ```
+    veya
+    ```bash
+    !bakiye
+    ```
+
+- **Para Kazanma**: Kullanıcıya belirli miktarda para kazandırır.
+    ```bash
+    !earn
+    ```
+
+- **Coin Flip**: Belirtilen miktarda coin flip atar.
+    ```bash
+    !coinflip 50
+    ```
+    veya tüm bakiyenizle oynamak için:
+    ```bash
+    !coinflip all
+    ```
+
+- **Lider Tablosu**: En zengin kullanıcıları gösterir.
+    ```bash
+    !leaderboard
+    ```
+
+#### Botadmin Komutları
+
+**Not:** Bu komutları kullanmak için bot yöneticisi olmanız gerekmektedir.
+
+- **Bakiye Ayarlama**: Kullanıcının bakiyesini ayarlar.
+    ```bash
+    !set_bakiye @kullanici 1000
+    ```
+
+- **Seviye Ayarlama**: Kullanıcının seviyesini ve XP'sini ayarlar.
+    ```bash
+    !set_seviye @kullanici 5 250
+    ```
+
+- **Kullanıcı Verilerini Gösterme**: Kullanıcının verilerini gösterir.
+    ```bash
+    !get_user_data @kullanici
+    ```
+
+- **Kullanıcı Verilerini Ayarlama**: Kullanıcının verilerini ayarlar.
+    ```bash
+    !set_user_data @kullanici {"level": 3, "xp": 150, "balance": 500}
+    ```
+
+- **Bot Durumunu Değiştirme**: Botun durumunu değiştirir.
+    ```bash
+    !change_status Şu an eğleniyorum!
+    ```
+
+- **Hata Loglarını Gönderme**: Hata loglarını gönderir.
+    ```bash
+    !send_error_logs
+    ```
+
+#### Çekiliş Komutları
+
+- **Çekiliş Oluşturma**: Belirtilen süre ve ödülle bir çekiliş oluşturur.
+    ```bash
+    !çekiliş_oluştur 1h 50$ ödülü
+    ```
+
+- **Çekiliş İptal Etme**: Belirtilen mesaj ID'sine sahip çekilişi iptal eder.
+    ```bash
+    !çekiliş_iptal 123456789012345678
+    ```
+
 ## Hata Ayıklama
 
 Bot çalışırken herhangi bir hata ile karşılaşırsanız, `error_logs.txt` dosyasını kontrol edebilirsiniz. Bu dosya, botun çalışması sırasında meydana gelen hataları kaydeder.
