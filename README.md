@@ -19,7 +19,6 @@ Bu proje, Discord sunucunuzda çeşitli komutlar ve etkileşimler sağlayan bir 
 
 - Python 3.8 veya daha üstü
 - `discord.py` kütüphanesi
-- `discord.ext` kütüphanesi
 
 ### Adımlar
 
